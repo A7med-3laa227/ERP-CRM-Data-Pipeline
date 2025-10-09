@@ -8,7 +8,7 @@ CREATE TABLE bronze.crm_cust_info (
     cst_marital_status VARCHAR(50),
     cst_gndr VARCHAR(50),
     cst_create_date DATE
-);
+	);
 
 
 -- Drop and create crm_prd_info
@@ -34,7 +34,7 @@ CREATE TABLE bronze.crm_sales_details (
     sls_due_dt INT,     -- kept as INT
     sls_sales INT,
     sls_quantity INT,
-    sls_price NUMERIC(12,2)  -- MONEY replaced with NUMERIC
+    sls_price NUMERIC(12,2) -- MONEY replaced with NUMERIC
 );
 
 -- Drop and create erp_loc_a101
