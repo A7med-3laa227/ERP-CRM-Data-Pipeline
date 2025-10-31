@@ -39,12 +39,12 @@ The ERP CRM Pipeline is a modern data warehouse pipeline that focuses on the ing
 ---
 
 ## Folder Structure
-data-warehouse-project/
+/
 │
 ├── datasets/                           # Raw datasets used for the project (ERP and CRM data)
 │
 ├── docs/                               # Project documentation and architecture details
-│   ├── etl.drawio                      # Draw.io file shows all different techniquies and methods of ETL
+│   ├── etl.drawio                      # Draw.io file shows all different techniques and methods of ETL
 │   ├── data_architecture.drawio        # Draw.io file shows the project's architecture
 │   ├── data_catalog.md                 # Catalog of datasets, including field descriptions and metadata
 │   ├── data_flow.drawio                # Draw.io file for the data flow diagram
