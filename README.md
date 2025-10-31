@@ -3,8 +3,7 @@ The ERP CRM Pipeline is a modern data warehouse pipeline that focuses on structu
 
 <img width="901" height="691" alt="Data Architecture" src="https://github.com/user-attachments/assets/84cf43f9-74e9-4ec4-a87c-a537cb1af5fe" />
 
-##Data Warehouse Layers
-
+## Data Warehouse Layers
 | Layer  | Description                     | Object Type | Load              | Transformations                 | Data Model         |
 | ------ | ------------------------------- | ----------- | ----------------- | ------------------------------- | ------------------ |
 | Bronze | Raw, untransformed data         | Table       | Batch & Full Load | None                            | None (as-is)       |
