@@ -35,3 +35,26 @@ The ERP CRM Pipeline is a modern data warehouse pipeline that focuses on the ing
 - Goal: Business intelligence and advanced analytics
 
 <img width="871" height="483" alt="Data model of star schema" src="https://github.com/user-attachments/assets/c5210e3d-0829-4b29-a72e-84368079ab51" />
+
+---
+
+## Folder Structure
+/
+|-- Data-Architecture.jpg
+|-- README.md
+|-- src/
+|   |-- etl_scripts/
+|   |-- transformations/
+|-- data/
+|   |-- incoming/
+|   |-- processed/
+|-- docs/
+|-- notebooks/
+
+---
+
+## Future Enhancements
+- Integrate Apache Airflow for automated workflow orchestration and scheduling of ETL jobs
+- Implement dbt for modular, version-controlled, and testable SQL transformations in Silver & Gold layers
+- Add data quality checks and tests using dbt to ensure trusted analytics and reporting
+- Document business and technical logic using dbt docs for easier onboarding and auditing
