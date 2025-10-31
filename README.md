@@ -19,8 +19,8 @@ The ERP CRM Pipeline is a modern data warehouse pipeline that focuses on the ing
 
 ## Layers Summary
 ### 1. Bronze Layer – Raw Ingestion
--Source: External CSV files
+- Source: External CSV files
 
--Landing Zone: SQL Server Database
+- Landing Zone: SQL Server Database
 
--Goal: Store raw, unprocessed data
+- Goal: Store raw, unprocessed data
