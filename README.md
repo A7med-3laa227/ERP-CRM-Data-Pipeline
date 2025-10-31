@@ -39,7 +39,7 @@ The ERP CRM Pipeline is a modern data warehouse pipeline that focuses on the ing
 ---
 
 ## Folder Structure
-'/
+```/
 │
 ├── datasets/                           # Raw datasets used for the project (ERP and CRM data)
 │
@@ -61,7 +61,7 @@ The ERP CRM Pipeline is a modern data warehouse pipeline that focuses on the ing
 ├── README.md                           # Project overview and instructions
 ├── LICENSE                             # License information for the repository
 ├── .gitignore                          # Files and directories to be ignored by Git
-└── requirements.txt                    # Dependencies and requirements for the project'
+└── requirements.txt                    # Dependencies and requirements for the project' ```
 
 ---
 
