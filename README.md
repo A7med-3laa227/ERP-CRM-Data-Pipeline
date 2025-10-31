@@ -23,6 +23,15 @@ The ERP CRM Pipeline is a modern data warehouse pipeline that focuses on the ing
 - Landing Zone: SQL Server Database
 - Goal: Store raw, unprocessed data
 
+<img width="821" height="541" alt="Data Flow Architcture" src="https://github.com/user-attachments/assets/40be832d-181d-42d5-8f87-92fcc19357b8" />
+
 ### 2. Silver Layer – Cleaned and Validated Data
 - Processes: Null handling, deduplication, schema enforcement
 - Goal: Queryable and validated intermediate data
+
+### 3. Gold Layer – Analytics Ready
+- Structure: Star schema (Fact + Dimension tables)
+- Query Engine:  SQL Server engine
+- Goal: Business intelligence and advanced analytics
+
+<img width="871" height="483" alt="Data model of star schema" src="https://github.com/user-attachments/assets/c5210e3d-0829-4b29-a72e-84368079ab51" />
