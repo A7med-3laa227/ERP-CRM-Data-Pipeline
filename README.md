@@ -1,2 +1,2 @@
-# sql-data-warehouse-project
+# ERP-CRM-Data-Pipeline
 Building a modern data warehouse with SQL server, including ETL processes, data modeling and analytics
