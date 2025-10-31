@@ -42,24 +42,21 @@ The ERP CRM Pipeline is a modern data warehouse pipeline that focuses on the ing
 `/
 ├── datasets/                           # Raw datasets used for the project (ERP and CRM data)
 │
-|
 ├── docs/                               # Project documentation and architecture details
-│   ├── data_architecture.drawio        # Draw.io file shows the project's architecture
-│   ├── data_flow.drawio                # Draw.io file for the data flow diagram
-│   ├── data_model.drawio              # Draw.io file for data model (star schema)
-│   ├── data_catalog.md                 # Catalog of datasets, including field descriptions and metadata
+│   ├── data_architecture.drawio        # Draw.io file showing project architecture
+│   ├── data_flow.drawio                # Draw.io file for data flow diagram
+│   ├── data_model.drawio               # Draw.io file for data model (star schema)
+│   ├── data_catalog.md                 # Catalog of datasets, field descriptions, and metadata
 │
-|
 ├── scripts/                            # SQL scripts for ETL and transformations
-│   ├── bronze/                         # Scripts for extracting and loading raw data
-│   ├── silver/                         # Scripts for cleaning and transforming data
-│   ├── gold/                           # Scripts for creating analytical models
+│   ├── bronze/                         # Extracting and loading raw data
+│   ├── silver/                         # Cleaning and transforming data
+│   ├── gold/                           # Creating analytical models
 │
-|
-├── tests/                              # Test scripts and quality files
+├── tests/                              # Test scripts and quality checks
 │
-|
 ├── README.md                           # Project overview and instructions`
+
 
 ---
 
